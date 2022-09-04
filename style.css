@@ -1,0 +1,196 @@
+/*  HEADER */
+.titulo {
+	color: teal;
+	background-color: beige;
+	text-align: center;	
+	padding:10px;
+	text-decoration: none;
+}
+/* END HEADER */
+
+
+/* MENU */
+
+.menu a:hover{
+	text-decoration: underline;
+}
+
+.menu a {	
+	text-decoration: none;	
+	color: white;	
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;	
+	padding: 5px;	
+}
+
+.menu {
+	text-align:center;
+	background-color: black;
+	padding:5px;	
+}
+
+.menu li:hover{
+	text-decoration: underline;		
+	
+}
+.menu li{
+	display: inline;
+	padding:1px;	
+}
+/* END MENU */
+
+
+/* CONTENT */
+.contanier{
+	width: 1366px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+} 
+
+.articles{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.articles article img {
+	width: 80%;
+	height: 50%;	
+}
+
+.articles article {
+	width: 30%;
+}
+.articles article ul a{
+	display: inline;
+	text-align:left;		
+}
+
+section {
+	padding: 16px 0;
+}
+
+section h2,
+.articles article {
+	margin-bottom: 16px;
+}
+
+.articles article a {
+	color: floralwhite;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 8px;	
+}
+
+.articles article p {
+	text-decoration: none;
+	font-weight: bold;		
+}
+
+.articles article p 
+.articles article a {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+
+.articles article a:hover{
+	text-decoration: underline;
+}
+
+.articles article h3 {
+	font-size: 24px;
+}
+
+section h2 {
+	font-size: 32px;	
+}
+
+
+#sports h2 {
+	color: darkgreen;
+}
+#sports {
+	background-color: rgba(0, 255, 0 , 0.2);
+}
+#sports .articles article a {
+	background-color: green;
+}
+#sports .contanier a {
+	text-decoration: none;	
+}
+#sports .contanier h2:hover {
+	text-decoration: underline;	
+}
+
+
+#economy h2 {
+	color: brown;
+}
+#economy h3 {
+	color: tomato;
+}
+#economy {
+	background-color: darkkhaki;
+}
+#economy .articles article a {
+	background-color: coral;
+}
+#economy .contanier a {
+	text-decoration: none;	
+}
+#economy .contanier h2:hover {
+	text-decoration: underline;	
+}
+
+
+#gamer {
+	background-color: skyblue;
+}
+#gamer h2 {
+	color: blue;	
+}
+#gamer h3 {
+	color: darkblue;
+}
+#gamer .articles article a {
+	background-color: darkcyan;
+}
+#gamer .contanier a {
+	text-decoration: none;	
+}
+#gamer .contanier h2:hover {
+	text-decoration: underline;	
+}
+
+
+#developer {
+	background-color: azure;
+}
+#developer h2 {
+	color: black;	
+}
+#developer h3 {
+	color: black;	
+}
+#developer .contanier a {
+	background-color: darkgray;
+	text-decoration: none;	
+}
+#developer .contanier h2:hover {
+	text-decoration: underline;	
+}
+/* END CONTENT */
+
+
+/* FOOTER */
+
+#footer {
+	text-align: center;
+	color: dodgerblue;
+	background-color: black;	
+	padding:80px;
+}
+/* END FOOTER 
